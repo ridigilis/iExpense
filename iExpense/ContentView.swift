@@ -27,7 +27,7 @@ struct ContentView: View {
             }
         }
         .sheet(isPresented: $showingAddExpense) {
-            AddView(expenses: <#T##Expenses#>)
+            AddView(expenses: expenses)
         }
     }
     
